@@ -1,10 +1,5 @@
-import { Alert, Stack, Typography, Box } from "@mui/material";
-import { Grid } from "@mui/system";
-import CippFormComponent from "../CippComponents/CippFormComponent";
+import { Alert, Stack, Typography } from "@mui/material";
 import { CippWizardStepButtons } from "./CippWizardStepButtons";
-import { CippFormTenantSelector } from "../CippComponents/CippFormTenantSelector";
-import { CippFormCondition } from "../CippComponents/CippFormCondition";
-import alertList from "../../data/alerts.json";
 
 export const CippAlertsStep = (props) => {
   const { formControl, onPreviousStep, onNextStep, currentStep } = props;
@@ -55,9 +50,7 @@ export const CippAlertsStep = (props) => {
           </ul>
           <ul>
             <li>
-              You can deploy Windows Applications too, directly using intune. We have Chocolately,
-              WinGet, and RMM apps under &gt; Intune &gt; Applications. Some examples are CSP
-              integrations, Password Pusher, PSA, and more.
+              Adding more users to CIPP? you can do this via CIPP &gt; Advanced &gt; Super Admin.
             </li>
           </ul>
           <ul>

@@ -14,6 +14,7 @@
     "CIPP",
     "CIPP-API",
     "Datto",
+    "DMARC",
     "Entra",
     "ESET",
     "GDAP",
@@ -29,8 +30,10 @@
     "Reshare",
     "Rewst",
     "Sherweb",
+    "superadmin",
     "Syncro",
     "TERRL",
+    "unconfigured",
     "Yubikey"
   ],
   "ignoreWords": [
@@ -69,7 +72,9 @@
     "mdo_zapspam",
     "microsoftonline",
     "mip_search_auditlog",
-    "winmail"
+    "winmail",
+    "onmicrosoft.com",
+    "MOERA"
   ],
   "import": []
 }

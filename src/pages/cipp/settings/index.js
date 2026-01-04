@@ -9,6 +9,8 @@ import CippPasswordSettings from "/src/components/CippSettings/CippPasswordSetti
 import CippDnsSettings from "/src/components/CippSettings/CippDnsSettings";
 import CippCacheSettings from "/src/components/CippSettings/CippCacheSettings";
 import CippBackupSettings from "/src/components/CippSettings/CippBackupSettings";
+import CippBrandingSettings from "/src/components/CippSettings/CippBrandingSettings";
+import CippBackupRetentionSettings from "/src/components/CippSettings/CippBackupRetentionSettings";
 const Page = () => {
   return (
     <Container sx={{ pt: 3 }} maxWidth="xl">
@@ -27,6 +29,12 @@ const Page = () => {
         </Grid>
         <Grid size={{ lg: 4, md: 6, sm: 12, xs: 12 }}>
           <CippBackupSettings />
+        </Grid>
+        <Grid size={{ lg: 4, md: 6, sm: 12, xs: 12 }}>
+          <CippBackupRetentionSettings />
+        </Grid>
+        <Grid size={{ lg: 4, md: 6, sm: 12, xs: 12 }}>
+          <CippBrandingSettings />
         </Grid>
       </Grid>
     </Container>

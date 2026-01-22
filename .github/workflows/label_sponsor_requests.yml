@@ -1,3 +1,4 @@
+# redeploy trigger — harmless comment
 name: Label Issues
 on:
   issues:
